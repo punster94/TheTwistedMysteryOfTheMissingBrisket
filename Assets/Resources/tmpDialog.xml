@@ -1,0 +1,1001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dialogues>
+	<Dialog personId = "0" timeState = "1">
+		<Statement>
+			<Text>Oh hey Jack, Goro, how’s it going?</Text>
+			<ShortenedText>Brendan Greeting</ShortenedText>
+		</Statement>
+
+		<Question>
+			<EnablingKeyword></EnablingKeyword>
+			<QuestionStatement>
+				<Text>Hey Brendan, were you on campus last night?</Text>
+				<ShortenedText>Were you on campus last night?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Anime Night</Keyword>
+				<Text>Oh totally. I was hosting Anime Night.</Text>
+				<ShortenedText>Anime Night</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Anime Night</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Anime Night</Keyword>
+				<Text>Oh really? Was anyone else there?</Text>
+				<ShortenedText>Who was with you at Anime Night?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Anime Attendance</Keyword>
+				<Text>Oh sure. It was me, Eris, Goro, Cid, Jameron, and Derrick were our Anime Attendance.</Text>
+				<ShortenedText>Anime Attendance</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Anime Attendance</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Anime Attendance</Keyword>
+				<Text>Was anyone at Anime Night doing anything strange?</Text>
+				<ShortenedText>[Anime Attendance] Was anyone acting strangely?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Anime Night</Keyword>
+				<Keyword>Jameron's Card</Keyword>
+				<Text>A lot of people were coming and going through the night. Jameron ran off for a while and he needed me to open the Cohort door for him. Apparently he lost his card.</Text>
+				<ShortenedText>Jamerson and Derrick left Anime Night</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword></EnablingKeyword>
+			<QuestionStatement>
+				<Text>Can you think of anyone who might want to upset JR?</Text>
+				<ShortenedText>Who would want to hurt JR?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Fez and JR</Keyword>
+				<Text>I heard something happened between Fez and JR. He sounded really pissed off.</Text>
+				<ShortenedText>Fez and JR</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Angry Troy</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Angry Troy</Keyword>
+				<Text>I heard Troy was pretty angry last night. Did you hear about that?</Text>
+				<ShortenedText>[Angry Troy] Why was Troy angry?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>School Server</Keyword>
+				<Text>Yah, I think so. Apparently the School Server crashed and he had to go fix it.</Text>
+				<ShortenedText>School Server crash</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>School Server</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>School Server</Keyword>
+				<Text>How would Troy go about fixing the School Server?</Text>
+				<ShortenedText>How did he fix the School Server?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>JR's Office</Keyword>
+				<Text>Well I’m no tech, but the server tower is in JR’s Office. He’d probably have to go in there.</Text>
+				<ShortenedText>He'd have to go into JR's Office.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+	</Dialog>
+
+	<Dialog personId = "1" timeState = "1">
+		<Statement>
+			<Text>Hey Jack, hey Goro, what’s up?</Text>
+			<ShortenedText>Leanne Greeting</ShortenedText>
+		</Statement>
+
+		<Question>
+			<EnablingKeyword></EnablingKeyword>
+			<QuestionStatement>
+				<Text>I’m working on a FIEA Bandit case. JR’s Brisket is missing. Have you heard anything?</Text>
+				<ShortenedText>I’m on the case!</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>FIEA Last Night</Keyword>
+				<Text>Well… not heard. I smelled something though. I was working with the Vive in the FIEA Last Night, and I smelled brisket  I called out asking for some, then heard someone run off. </Text>
+				<ShortenedText>I smelled meat in the Cohort Last Night.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>FIEA Last Night</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>FIEA Last Night</Keyword>
+				<Text>You were at FIEA Last Night? Do you know who else was?</Text>
+				<ShortenedText>Who was at FIEA Last Night?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Anime Night</Keyword>
+				<Keyword>Cohort Space</Keyword>
+				<Text>Well, I know Saul and Fez were working in the fun cubicle. I think a bunch of people were at Anime Night. A few people were in the Cohort Space too.</Text>
+				<ShortenedText>Who was at FIEA Last Night.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Fez and JR</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Fez and JR</Keyword>
+				<Text>I hear that Fez and JR are having some beef right now. Do you know anything?</Text>
+				<ShortenedText>Do you know about Fez and JR?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Fez Was Furious</Keyword>
+				<Text>Oh yah they are! Fez got a virus, and by policy JR had to wipe his entire computer. Fez Was Furious; I think he wanted to fix it himself.</Text>
+				<ShortenedText>Fez Was Furious.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Cohort Space</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Cohort Space</Keyword>
+				<Text>So who walked through the Cohort Space last night? Anyone interesting?</Text>
+				<ShortenedText>Who walked through the Cohort Space last night?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Angry Troy</Keyword>
+				<Text>Gosh, a ton. Saul and Fez for sure, plus half the Anime Club. Oh, and some other guy walked by. I think he works in JR’s office. [Angry Troy]</Text>
+				<ShortenedText>Who came through the Cohort Space</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<QuestionStatement>
+				<Text>Do you know anyone who might want to steal JR's brisket?</Text>
+				<ShortenedText>Who might want to steal JR’s brisket</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Fez and JR</Keyword>
+				<Keyword>Hungry for Brisket</Keyword>
+				<Text>Well Fez and JR have beef right now, but honestly, a lot of people are Hungry for Brisket.</Text>
+				<ShortenedText>A lot of people are Hungry for Brisket.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Hungry for Brisket</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Hungry for Brisket</Keyword>
+				<Text>Who else do you think would Hungry for Brisket?</Text>
+				<ShortenedText>Who else is Hungry for Brisket?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Text>Who wouldn’t? Their are the big fans like Derrick and Jameron, but I think Cid wanted to try it too. Goro told him it's better than fried rice.</Text>
+				<ShortenedText>Everyone wants the meat.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+	</Dialog>
+
+	<Dialog personId = "2" timeState = "1">
+		<Statement>
+			<Text>Hello Jack, Goro. You guys look so serious.</Text>
+			<ShortenedText>Saul greeting</ShortenedText>
+		</Statement>
+
+		<Question>
+			<EnablingKeyword></EnablingKeyword>
+			<QuestionStatement>
+				<Text>The FIEA Bandit struck again. Were you on campus last night?</Text>
+				<ShortenedText>We’re up to serious business.</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>FIEA Last Night</Keyword>
+				<Text>Oh yes, I was at FIEA Last Night until very late.</Text>
+				<ShortenedText>I was at FIEA Last Night</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>FIEA Last Night</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>FIEA Last Night</Keyword>
+				<Text>Do you know who else was at FIEA Last Night?</Text>
+				<ShortenedText>Who was at FIEA Last Night?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Angry Troy</Keyword>
+				<Keyword>Lou and Goro</Keyword>
+				<Text>Let's see... I was working with Fez. Lou and Goro were doing some programming. Derrick and Eris talked. Oh, and Troy stomped by; he looked pretty angry. [Angry Troy]</Text>
+				<ShortenedText>Cohort Space and Angry Troy</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Angry Troy</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Angry Troy</Keyword>
+				<Text>So why was Troy so angry? Did he say anything?</Text>
+				<ShortenedText>Angry Troy?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Text>I think I heard him say “Damn producers,” but that’s it. But he is the IT guy though, so maybe someone broke something.</Text>
+				<ShortenedText>Maybe someone broke something.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword></EnablingKeyword>
+			<QuestionStatement>
+				<Text>I’m stressed can I borrow a squishable.</Text>
+				<ShortenedText>I’m stressed.</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Squishy Theft</Keyword>
+				<Text>Sorry Jack, since the FIEA bandit stole my reaper, I don’t lend them out anymore. Squishy Theft is inexcusable. </Text>
+				<ShortenedText>Not since the Squishy Theft</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Squishy Theft</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Squishy Theft</Keyword>
+				<Text>Whatever happened to your squishable anyway? Were there any suspects?</Text>
+				<ShortenedText>Tell me about the Squishy Theft.</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Text>Well nothing concrete, but Derrick had been over, and he was talking about buying one. He decided not to just around the same time Little Reapsy disappeared.</Text>
+				<ShortenedText>Was Derrick responsible for the Squishy Theft?</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword></EnablingKeyword>
+			<QuestionStatement>
+				<Text>Do you know anyone who might want to upset JR?</Text>
+				<ShortenedText>Who might want to upset JR?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Fez and JR</Keyword>
+				<Text>Oh my god, Fez so was angry at him this week. JR wiped his computer and he lost a ton of work. I felt really bad for him.</Text>
+				<ShortenedText>Fez and JR</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+	</Dialog>
+
+	<Dialog personId = "3" timeState = "1">
+		<Statement>
+			<Text>Yo Jack, Goro, what’s up?</Text>
+			<ShortenedText>Cid Greeting</ShortenedText>
+		</Statement>
+
+		<Question>
+			<EnablingKeyword></EnablingKeyword>
+			<QuestionStatement>
+				<Text>Sup Cid? You look tired. Were you up late?</Text>
+				<ShortenedText>Sup Cid?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Anime Night</Keyword>
+				<Text>I was up late at Anime Night. We tried to watch One Piece from start to finish.</Text>
+				<ShortenedText>Anime Night</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Anime Night</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Anime Night</Keyword>
+				<Text>So who was at Anime Night?</Text>
+				<ShortenedText>Who was Anime Night?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Text>Me, Brendan, Eris, Derrick, and Jameron were the Anime Attendance… Oh, Goro watched with us too.</Text>
+				<ShortenedText>Anime Attendance</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>School Server</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>School Server</Keyword>
+				<Text>Hey Cid, what would it take to crash the School Server, and how would you fix it?</Text>
+				<ShortenedText>What would it take to crash the School Server?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>JR's Office</Keyword>
+				<Text>Well, that’s not so easy. You’d have to push an incredible amount of stuff through Version Control, or go in and break something. If you did, you’d have to go to JR's Office and fix it manually.</Text>
+				<ShortenedText>You'd have to fix the server in JR's Office</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Hungry for Brisket</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>JR's Office</Keyword>
+				<Text>Is it obvious that someone would have to go to JR's Office? Do most people know that?</Text>
+				<ShortenedText>Who would know the server is in JR's Office?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>JR's Office</Keyword>
+				<Text>I doubt many people think about Fixing a Server. The programmers would know though, and probably a smart tech producer or tech artist. </Text>
+				<ShortenedText>Who knew the School Server was in JR's Office?</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword></EnablingKeyword>
+			<QuestionStatement>
+				<Text>Do you know anyone who might want to upset JR?</Text>
+				<ShortenedText>Who might want to upset JR?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Hungry for Brisket</Keyword>
+				<Text>Not really. JR is a big softy, and he buys us nice licenses. Maybe someone was Hungry for Brisket.</Text>
+				<ShortenedText>Why hurt JR?</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Hungry for Brisket</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Hungry for Brisket</Keyword>
+				<Text>Speaking of the brisket, do you know anyone who’s had their eye on JR's meat?</Text>
+				<ShortenedText>Hungry for Brisket</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Anime Night</Keyword>
+				<Text>Besides you? Goro, Derrick, and I were talking about it yesterday at Anime Night actually. I can’t believe he ran out of spots this time. </Text>
+				<ShortenedText>Hungry for Brisket</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+	</Dialog>
+
+	<Dialog personId = "8" timeState = "2">
+		<Statement>
+			<Text>Oooh, how's the detective work going?</Text>
+			<ShortenedText>How's it going?</ShortenedText>
+		</Statement>
+
+		<Question>
+			<EnablingKeyword></EnablingKeyword>
+			<QuestionStatement>
+				<Text>Hey Eris, you were on campus last night, right?</Text>
+				<ShortenedText>Were you on campus?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Anime Night</Keyword>
+				<Keyword>FIEA Last Night</Keyword>
+				<Text>Oh I was definitely at FIEA Last Night. I was at Anime Night. I left early though, they were gonna stay all night.</Text>
+				<ShortenedText>I was at Anime Night but left early.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>FIEA Last Night</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>FIEA Last Night</Keyword>
+				<Text>Did you see anyone outside of Anime at FIEA Last Night?</Text>
+				<ShortenedText>Did you see anyone else at FIEA Last Night?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>JR's Office</Keyword>
+				<Keyword>Jameron Watching Troy</Keyword>
+				<Text>I saw Jameron as I walked to my desk. He was crazy focused on his computer. He didn't even notice me. And Derrick said goodbye later. He was coming from the direction of JR's Office.</Text>
+				<ShortenedText>Jameron on the computer. Derrick near the office.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Angry Troy</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Angry Troy</Keyword>
+				<Text>I heard Troy was around last night too, and he was pretty mad. Did you see him?</Text>
+				<ShortenedText>Did you see Angry Troy?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>JR's Office</Keyword>
+				<Text>Oh yah! I totally forgot. He went toward JR's Office not too long after I sat down.</Text>
+				<ShortenedText>Troy went toward JR's Office.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<QuestionStatement>
+				<Keyword>Follow Troy</Keyword>
+				<Text>Did you notice anyone Follow Troy?</Text>
+				<ShortenedText>Did anyone Follow Troy?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Text>Umm... Does Jam count? I didn't see him go, but he was watching him intently. I heard someone walk by after, but I wasn't looking.</Text>
+				<ShortenedText>Jam was watching Troy</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Hungry for Brisket</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Hungry for Brisket</Keyword>
+				<Text>Do you know anyone here who's Hungry for Brisket?</Text>
+				<ShortenedText>Is anyone Hungry for Brisket?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Derrick's Desk</Keyword>
+				<Keyword>Default keyword</Keyword>
+				<Text>Maybe Derrick? I was in before him this morning and there was a massive Brisket Stain on his desk. He wiped it up as soon as he got to school.</Text>
+				<ShortenedText>Brisket Stain on Derrick's Desk</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Squishy Theft</EnablingKeyword>
+			<QuestionStatement>
+				<Text>Do you think Derrick would ever steal a Squishable?</Text>
+				<ShortenedText>Would Derrick steal a Squishable?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>He Already Has One</Keyword>
+				<Text>I doubt it, he got one a few weeks ago. He doesn't bring it to campus though, I'm not sure why.</Text>
+				<ShortenedText>He got one a few weeks ago.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+	</Dialog>
+
+	<Dialog personId = "9" timeState = "2">
+		<Statement>
+			<Text>Kneel peasant.</Text>
+			<ShortenedText>Lou Greeting</ShortenedText>
+		</Statement>
+
+		<Question>
+			<EnablingKeyword></EnablingKeyword>
+			<QuestionStatement>
+				<Text>My leige, did you grace the Cohort with your regailty this evening past?</Text>
+				<ShortenedText>Were you on campus last night?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>FIEA Last Night</Keyword>
+				<Text>Aye, I graced FIEA Last Night.</Text>
+				<ShortenedText>King Lou at FIEA Last Night</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>FIEA Last Night</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>FIEA Last Night</Keyword>
+				<Text>And what did m'lord do with his evening hours?</Text>
+				<ShortenedText>What were you doing at FIEA Last Night</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Lou and Goro</Keyword>
+				<Text>The young squire Goro, assissted me with my kingly assembly.</Text>
+				<ShortenedText>Goro helped me with my homework.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Lou and Goro</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Lou and Goro</Keyword>
+				<Text>And was the knowledge of the knave a boon to you my king?</Text>
+				<ShortenedText>Was Goro any help?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Text>Aye, it was. Though his countenance did stray without deference to my royal prominence.</Text>
+				<ShortenedText>Yes, but Goro seemed distracted.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>School Server</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>JR's Office</Keyword>
+				<Text>If a humble servant attempted subterfuge against the royal... treaasury, by what means might they try?</Text>
+				<ShortenedText>What do you know about accessing JR's Office?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Follow Troy</Keyword>
+				<Text>Like a thief they'd needs must slip the lock. Else, as a shadow does, they might hang on the heels of a careless warden.</Text>
+				<ShortenedText>They would need to open the lock or follow Follow Troy.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Follow Troy</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Follow Troy</Keyword>
+				<Text>Dids't thou seeeth any... umm... shadows hung in so insidious a fashion?</Text>
+				<ShortenedText>Did you see anyone Follow Troy?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Text>I did not see the ward of which you speak. Though I heard the passing of footfalls burning heavy with the weight of rage.</Text>
+				<ShortenedText>I heard someone walk by, they sounded angry.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>School Server</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>School Server</Keyword>
+				<Text>How would'st a wreched crook rain his malignance down upon the kingdom library.</Text>
+				<ShortenedText>How would someone go about damaging the School Server?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Text>Dread the man whose fire of mind and body would drive such andtagonism, for the library is open to all submissions. One of significant corruption or breadth could do the deed.</Text>
+				<ShortenedText>It wouldn't be hard, just submit something bad through version control. </ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+	</Dialog>
+
+	<Dialog personId = "7" timeState = "2">
+		<Statement>
+			<Text>Grrrrr</Text>
+			<ShortenedText>Grrrrr</ShortenedText>
+		</Statement>
+
+		<Question>
+			<EnablingKeyword>Angry Troy</EnablingKeyword>
+			<QuestionStatement>
+				<Text>Hey Troy, why are you so angry?</Text>
+				<ShortenedText>Why are you so angry?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Producers Suck</Keyword>
+				<Text>Because Producers Suck</Text>
+				<ShortenedText>Producers Suck</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Producers Suck</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Producers Suck</Keyword>
+				<Text>I totally agree, but can you be more specific?</Text>
+				<ShortenedText>Why do Producers Suck?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>School Server</Keyword>
+				<Keyword>Crashed the Server</Keyword>
+				<Text>One of your producers crased my School Server. I had to go manually reboot it.</Text>
+				<ShortenedText>A producer Crashed the Server.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<QuestionStatement>
+				<Keyword>Crashed the Server</Keyword>
+				<Text>Who Crashed the Server?</Text>
+				<ShortenedText>Who Crashed the Server?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Crashed the Server</Keyword>
+				<Keyword>School Server</Keyword>
+				<Text>Jameron Crashed the Server. And don't believe that BS about it being an accident? Who else would try and upload Civ VI where anyone could download it?</Text>
+				<ShortenedText>Did Jameron crash the School Server on purpose?</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword></EnablingKeyword>
+			<QuestionStatement>
+				<Text>Is that the only reason you're angry?</Text>
+				<ShortenedText>Is that the only reason you're angry?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Spilled Coffee</Keyword>
+				<Text>NO! Some jerk spilled coffee outside JR's Office while I was fixing it. They didn't even clean it up.</Text>
+				<ShortenedText>Someone Spilled Coffee at a critical moment.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Spilled Coffee</EnablingKeyword>
+			<QuestionStatement>
+				<Text>Do you know anyone who drinks coffee in the cohort?</Text>
+				<ShortenedText>Who drinks coffee</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Coffee Mug</Keyword>
+				<Text>You must not have been here too long. Everyone drinks coffee. Especially that Fez kid. He had a huge Coffee Mug when he was arguing with JR yesterday.</Text>
+				<ShortenedText>Fez Coffee Mug</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<QuestionStatement>
+				<Text>Grrr back at ya, big guy!</Text>
+				<ShortenedText>Grrrrr</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Text>Grrrr</Text>
+				<ShortenedText>Grrrr</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+	</Dialog>
+
+	<Dialog personId = "11" timeState = "2">
+		<Statement>
+			<Text>Hey Jack, I've been looking around for clues!</Text>
+			<ShortenedText>Have you made any progress?</ShortenedText>
+		</Statement>
+
+		<Question>
+			<QuestionStatement>
+				<Text>So did ya find anything?</Text>
+				<ShortenedText>What have you found?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Brisket Stain</Keyword>
+				<Keyword>Spilled Coffee</Keyword>
+				<Text>Oh yes! I found out that someone Spilled Coffee outside JR's Office Last Night. Also, I found a Brisket Stain.</Text>
+				<ShortenedText>Coffee and Brisket</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Spilled Coffee</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Spilled Coffee</Keyword>
+				<Text>Tell me about the Spilled Coffee.</Text>
+				<ShortenedText>Spilled Coffee?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Coffee Mug</Keyword>
+				<Text>Well, I don't know for certain, but I was going to the break room last night, and I saw Fez coming the other way with his Coffee Mug. Very suspicious. </Text>
+				<ShortenedText>Fez and his Coffee</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<QuestionStatement>
+				<Keyword>Brisket Stain</Keyword>
+				<Text>Tell me about the Brisket Stain.</Text>
+				<ShortenedText>Brisket Stain?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Derrick's Desk</Keyword>
+				<Keyword>Brisket Stain</Keyword>
+				<Text>I was sleuthing around the cohort and I noticed a weird spot on Derrick's Desk. I tasted it, and sure enough, it was Brisket! </Text>
+				<ShortenedText>Brisket Stain on Derrick's Desk</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Derrick's Desk</EnablingKeyword>
+			<EnablingKeyword>Hungry for Brisket</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Derrick's Desk</Keyword>
+				<Keyword>Brisket Stain</Keyword>
+				<Text>Do you think the Brisket Stain on Derrick's Desk is enough to call him guilty?</Text>
+				<ShortenedText>Question</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Hungry for Brisket</Keyword>
+				<Text>I can't make that call Jack, even if we know Derrick is Hungry for Brisket.</Text>
+				<ShortenedText>Derrick is Hungry for Brisket</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Derrick's Desk</EnablingKeyword>
+			<EnablingKeyword>Spilled Coffee</EnablingKeyword>
+			<EnablingKeyword>School Server</EnablingKeyword>
+			<QuestionStatement>
+				<Text>Did you find anything else I should know about?</Text>
+				<ShortenedText>Did you find anything else?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Crashed the Server</Keyword>
+				<Keyword>School Server</Keyword>
+				<Keyword>Jameron Crashed the Server</Keyword>
+				<Text>One more big thing, Jameron Crashed the School Server Last Night!</Text>
+				<ShortenedText>Jameron Crashed the Server</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Jameron Crashed the Server</EnablingKeyword>
+			<QuestionStatement>
+				<Text>Well you just know everything, don't you?</Text>
+				<ShortenedText>Well you seem to know everything.</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Text>I'm only trying to help Jack.</Text>
+				<ShortenedText>I'm only trying to help.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+	</Dialog>
+
+	<Dialog personId = "4" timeState = "3">
+		<Statement>
+			<Text>Hey Jack, it's getting late huh?</Text>
+			<ShortenedText>Jameron Greeting</ShortenedText>
+		</Statement>
+
+		<Question>
+			<QuestionStatement>
+				<Text>Jameron, boy have we been looking for you. Can you tell me what happened last night?</Text>
+				<ShortenedText>Where have you been?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Text>Oh jeez, last night was a mess. Where do I begin? I guess with Anime Night.</Text>
+				<ShortenedText>Where do I begin?</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Anime Night</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Anime Night</Keyword>
+				<Text>So what happened at Anime Night?</Text>
+				<ShortenedText>What happened at Anime Night?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>School Server</Keyword>
+				<Keyword>Anime Night</Keyword>
+				<Keyword>Cohort Space</Keyword>
+				<Keyword>Jameron's Card</Keyword>
+				<Text>I got a nearly hysterical call from Raul saying that I had crashed the School Server and was going to make him fail RPP. I Rushed out of Anime Night, but I couldn't get into the Cohort Space; my card was missing.</Text>
+				<ShortenedText>I rushed out of Anime Night</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Jameron's Card</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Jameron's Card</Keyword>
+				<Text>What happened to the card? Did you find it?</Text>
+				<ShortenedText>What happened to the card?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Text>What? Oh, the card... Yah, I found it at my desk which was really weird cause I definitely used it to get back in the building when we went out for dinner.</Text>
+				<ShortenedText>I found it at my desk even though I had used it.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Angry Troy</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Angry Troy</Keyword>
+				<Text>So how does Troy fit into all of this?</Text>
+				<ShortenedText>What about Troy?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Cohort Space</Keyword>
+				<Keyword>After Troy</Keyword>
+				<Text>Well Troy is IT so he has to fix things when they break. But I didn't actually call him. He was actually looking for me by the time I got into the Cohort Space.</Text>
+				<ShortenedText>Troy was looking for me.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Cohort Space</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Cohort Space</Keyword>
+				<Text>There were a lot of people coming in and out of the cohort last night, who came in after you?</Text>
+				<ShortenedText>Who followed you into the Cohort Space?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Text>Derrick came by after me, he said he was heading to the break room, but that's right next door to JR's. I also saw Goro, but he was coming over from King Lou's desk. He followed after Derrick.</Text>
+				<ShortenedText>I saw Goro and Derrick</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>After Troy Left</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>School Server</Keyword>
+				<Keyword>After Troy Left</Keyword>
+				<Text>What happened After Troy Left?</Text>
+				<ShortenedText>What happened After Troy went to fix the School Server?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Anime Night</Keyword>
+				<Text>Honestly, I just went back to Anime Night. I didn't know what else to do.</Text>
+				<ShortenedText>I went back to Anime Night.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+	</Dialog>
+
+	<Dialog personId = "5" timeState = "3">
+		<Statement>
+			<Text>Sup Jack, how's it going?</Text>
+			<ShortenedText>Sup?</ShortenedText>
+		</Statement>
+
+		<Question>
+			<EnablingKeyword>FIEA Last Night</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>FIEA Last Night</Keyword>
+				<Text>What really happened last night? We need to know.</Text>
+				<ShortenedText>What happened at FIEA Last Night?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>FIEA Last Night</Keyword>
+				<Keyword>Spilled Coffee</Keyword>
+				<Text>Well... I did some homework. This guy, Goro, Spilled Coffee, and yah, that's about it.</Text>
+				<ShortenedText>Not much happened at FIEA Last Night.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Spilled Coffee</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Spilled Coffee</Keyword>
+				<Text>Fez, there was a theft of some majro meat last night. We need to know about more than Spilled Coffee.</Text>
+				<ShortenedText>We're looking for major meat.</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Better Questions</Keyword>
+				<Text>Ok, then ask some better questions or something.</Text>
+				<ShortenedText>Ask some better questions.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Better Questions</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Spilled Coffee</Keyword>
+				<Text>Ok, fine, tell me more about the Spilled Coffee.</Text>
+				<ShortenedText>Fine, tell me about the Spilled Coffee.</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>JR's Office</Keyword>
+				<Keyword>Coffee Stain</Keyword>
+				<Keyword>Collision</Keyword>
+				<Text>I was coming back from the break room. I was passing by JR's Office and turned because I saw the door was open and it was late. Then POW Goro walked right into me. I spilled my coffee all over the floor.</Text>
+				<ShortenedText>I collided with Goro outside JR's Office.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Coffee Stain</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Coffee Stain</Keyword>
+				<Text>So why didn't you clean up the Coffee Stain?</Text>
+				<ShortenedText>Why didn't you clean up your spill?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Text>Goro said it was his fault, apologized, a lot, and offered to clean it up. </Text>
+				<ShortenedText>Goro said he'd clean it.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Fez's Fury</EnablingKeyword>
+			<QuestionStatement>
+				<Text>So you expect me to believe you already got revenge on JR for nuking your computer?</Text>
+				<ShortenedText>So what was your revenge?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Text>Damn right I already got my revenge. DDoSed the FIEA website. Pa powww, knocked it out.</Text>
+				<ShortenedText>I DDoSed the FIEA website.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Fez and JR</EnablingKeyword>
+			<QuestionStatement>
+				<Text>But what about your feud with JR? I thought you were mad about your computer.</Text>
+				<ShortenedText>Aren't you mad about your computer?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Fez's Fury</Keyword>
+				<Text>Damn right I'm mad. But JR already felt Fez's Fury.</Text>
+				<ShortenedText>JR already felt Fez's Fury.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+	</Dialog>
+
+	<Dialog personId = "6" timeState = "3">
+		<Statement>
+			<Text>Hey Jack, I hear you've been asking about me.</Text>
+			<ShortenedText>You've been asking about me?</ShortenedText>
+		</Statement>
+
+		<Question>
+			<EnablingKeyword>FIEA Last Night</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>FIEA Last Night</Keyword>
+				<Text>Sure have, I want to know what you were doing at FIEA Last Night.</Text>
+				<ShortenedText>What were you doing at FIEA Last Night?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Text>I was at Anime Night, I feel like you alreayd know that.</Text>
+				<ShortenedText>I was at Anime Night. </ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Cohort Space</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Cohort Space</Keyword>
+				<Text>What happened in the Cohort Space? Tell me everything.</Text>
+				<ShortenedText>What happened in the Cohort Space?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Who Did You See</Keyword>
+				<Text>I went to the break room for a soda. I saw a huge fresh coffee stain on the floor when I passed JR's office. On my way back I ran into Eris as she was leaving and said goodbye. I walked to the door with her, talking.</Text>
+				<ShortenedText>What Derrick did in the Cohort Space.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Who Did You See</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Who Did You See</Keyword>
+				<Text>Great, now tell me who you saw along the way. </Text>
+				<ShortenedText>Who Did You See on the way?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Keyword>Cohort Space</Keyword>
+				<Keyword>JR's Office</Keyword>
+				<Text>Jam was leaving the Cohort Space as I came in. And then I saw Fez come back from the break room before I got there. And finally I saw Eris on the way back. Oh, I technically saw Troy through the door to JR's Office.</Text>
+				<ShortenedText>Who Derrick saw in the Cohort Space</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Squishy Theft</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Squishy Theft</Keyword>
+				<Text>What can you tell me about the Squishy Theft?</Text>
+				<ShortenedText>Tell me about the Squishy Theft.</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Text>What's there to tell, someone stole Saul's Squishy. It was sad.</Text>
+				<ShortenedText>I know nothing about Saul's Squishy.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>He Already Has One</EnablingKeyword>
+			<QuestionStatement>
+				<Text>I know you alreayd have a squishable Derrick. No hiding now.</Text>
+				<ShortenedText>I know you have a squishable.</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Text>Oh wow, that. I got a copy of the one Saul got because I thought it was really cute, but then Saul's got stolen and I thought people would accuse me so I never got to bring mine in. It actually really sucks.</Text>
+				<ShortenedText>I didn't want to get blamed for the theft.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+		<Question>
+			<EnablingKeyword>Brisket Stain</EnablingKeyword>
+			<QuestionStatement>
+				<Keyword>Brisket Stain</Keyword>
+				<Text>Why was there a Brisket Stain on your desk this morning?</Text>
+				<ShortenedText>What about the Brisket Stain?</ShortenedText>
+			</QuestionStatement>
+			<AnswerStatement>
+				<Text>Dude, I have no idea. It's a splash though, like someone moved a platter too quickly.</Text>
+				<ShortenedText>The brisket splashed.</ShortenedText>
+			</AnswerStatement>
+		</Question>
+
+	</Dialog>
+
+	<Dialog personId = "12" timeState = "1">
+		<Statement>
+			<Keyword>Every Keyword</Keyword>
+			<Text>You're an impatient one aren't you? I suppose I could show you Every Keyword since you want to solve the mystery so quickly~</Text>
+			<ShortenedText>Every Keyword</ShortenedText>
+		</Statement>
+
+	</Dialog>
+
+</Dialogues>

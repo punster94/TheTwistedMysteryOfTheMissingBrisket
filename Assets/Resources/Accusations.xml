@@ -1,0 +1,886 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Accusations>
+	<Accusation timeState="1">
+		<TransitionStatement>
+			<Text>It's almost time for Lunch, Jack. What do you think so far?</Text>
+			<ShortenedText>What do you think so far?</ShortenedText>
+		</TransitionStatement>
+
+		<Choice personId="0" defenderId="11">
+			<EnablingKeyword>Anime Night</EnablingKeyword>
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>Brendan has that weird look in his eyes. I don't trust him.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Keyword>Anime Night</Keyword>
+				<Text>I think Brendan did it. He could have broken in after Anime Night when everyone else went home.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Hmm. Very suspicious. We should check his desk for brisket stains.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="1" defenderId="11">
+			<EnablingKeyword>Fez and JR</EnablingKeyword>
+			<InvestigatorIntuition>
+				<Keyword>Fez and JR</Keyword>
+				<Text>Why was Leanne so ready to mention Fez and JR?</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Text>I think Leanne did it. She implied Fez was guilty, but that makes for an awfuly good distraction.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Hmm. Very suspicious. Perhaps she smelled the brisket because she was eating it!</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="2" defenderId="11">
+			<EnablingKeyword>Fez and JR</EnablingKeyword>
+			<InvestigatorIntuition>
+				<Text>Saul is so sweet. It's the perfect cover for a thief!</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Text>I think Saul did it! He implied it was Fez in order to avoid detection!</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Hmm. Very suspicious. Saul also had his Squishy stolen, perhap it was a coverup.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="3" defenderId="11">
+			<EnablingKeyword>School Server</EnablingKeyword>
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>Cid always looks hungry. He clearly has a motive.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Keyword>School Server</Keyword>
+				<Text>I think Cid did it! He knows how to crash the School Server which seems really relevant for some reason.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Hmm. Very suspicious. That's almost definitely relevant for currently unknown reasons.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="4" defenderId="11">
+			<EnablingKeyword>Anime Attendance</EnablingKeyword>
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>Jameron left Anime Night without explaining why. I wonder where he went?</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Hungry for Brisket</EnablingKeyword>
+				<Text>Jameron was probably mad that he didn't make the brisket list this time. Clear motive.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Text>I think Jameron did it. Why else would he leave Anime Night before it was over?</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Hmm. Very suspicious. And he definitely likes brisket.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="6" defenderId="11">
+			<EnablingKeyword>Cohort Space</EnablingKeyword>
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>Derrick was seen in the cohort space last night, but no one knows what he was up to...</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Squishy Theft</EnablingKeyword>
+				<Text>Saul thinks Derrick stole his Squishy. Once a thief always a thief right?</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Keyword></Keyword>
+				<Text>I think Derrick did it because he was see in the cohort space last night without explanation.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Hmm. Very suspicious. We should find out what he was doing.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="5" defenderId="11">
+			<EnablingKeyword>Fez and JR</EnablingKeyword>
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>I'd be mad too if my computer got erased. Fez has a clear motive against JR. </Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Keyword></Keyword>
+				<Text>I think Fez did it because he JR erased his computer.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Hmm. Very suspicious. Fez, has a real reason to hurt him, and he is often one of the last people at FIEA each night.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="7" defenderId="11">
+			<EnablingKeyword>None</EnablingKeyword>
+			<InvestigatorIntuition>
+				<Text>This character is not accusable at this point in the story.</Text>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Keyword></Keyword>
+				<Text>This is only readable if you cheated. You bastard.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Hmm. Very Suspicious.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="8" defenderId="11">
+			<EnablingKeyword>None</EnablingKeyword>
+			<InvestigatorIntuition>
+				<Text>This character is not accusable at this point in the story.</Text>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Keyword></Keyword>
+				<Text>This is only readable if you cheated. You bastard.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Hmm. Very Suspicious.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="9" defenderId="11">
+			<EnablingKeyword>None</EnablingKeyword>
+			<InvestigatorIntuition>
+				<Text>This character is not accusable at this point in the story.</Text>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Keyword></Keyword>
+				<Text>This is only readable if you cheated. You bastard.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Hmm. Very Suspicious.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="10" defenderId="11">
+			<EnablingKeyword></EnablingKeyword>
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>What if I did it and and have amnesia?</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Text>Goro, I think I did it! I must have stolen the brisket and enjoyed it so much I got amnesia!</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Hmm. Very Suspicious. And in your state of amnesia you forgot what a terrible twist that would be?</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="11" defenderId="11">
+			<EnablingKeyword></EnablingKeyword>
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>Sweet sweet Goro. But when is it ever not the butler?</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Keyword></Keyword>
+				<Text>I accuse you, Goro! You're the least suspect character in the story, so you're the obvious choice!</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Jack! How could you say such a thing? I'm totally a suspect!</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+	</Accusation>
+
+	<Accusation timeState="2">
+		<TransitionStatement>
+			<Text>Lunch is ending. If you want to make an accusation, you'd better do it quick!</Text>
+			<ShortenedText>Lunch is over</ShortenedText>
+		</TransitionStatement>
+
+		<Choice personId="0" defenderId="0">
+      <EnablingKeyword>Anime Night</EnablingKeyword>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Anime Night</EnablingKeyword>
+				<Keyword>Anime Night</Keyword>
+				<Text>Brendan was probably at Anime Night all night</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Text>Brendan, I accuse you, even though I have no evidence.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Well... thanks buddy. Good luck when they kick you out of FIEA.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="1" defenderId="1">
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>Leanne said she smelled meat, but what if it was because she was eating it?</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Keyword>Cohort Space</Keyword>
+				<Text>Leanne, I accuse you because your hunger for meat is undeniable.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Wow... That's an uncomfortable turn of phrase. Also, Saul can confirm I was in the Cohort Space all night.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="2" defenderId="2">
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>Saul was actually hit by the Bandit previously. Is that exonerating or the perfect cover?</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Text>Saul, I accuse you because no one said anything suspect about you!</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Are you sure that's a wise way to make judgements? Also, Leanne can vouch for me. I was in the Cohort Space all night.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="3" defenderId="3">
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>Cid always looks hungry. He clearly has a motive.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<InvestigatorIntuition>
+				<EnablingKeyword>School Server</EnablingKeyword>
+				<Text>Cid would certainly know how to crash the server. He would also know who would be going to fix it. We can't rule him out.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Keyword>JR's Office</Keyword>
+				<Keyword>School Server</Keyword>
+				<Text>Cid, I accuse you because you're clever enough to crash the School Server and sneak into JR's Office behind Troy!</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>That may be true, Jack, but I was at Anime Night the whole time and Brendan can vouch for it.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="4" defenderId="4">
+			<EnablingKeyword>Anime Night</EnablingKeyword>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Anime Night</EnablingKeyword>
+				<Text>Jameron left Anime Night without explaining why. I wonder where he went?</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Crashed the Server</EnablingKeyword>
+				<Text>Jameron Crashed the server! If he knew Troy would have to go fix it manually, then he could have snuck in and stolen the brisket.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Jameron Watching</EnablingKeyword>
+				<Keyword>JR's Office</Keyword>
+				<Text>Jameron was watching Troy as he went to JR's Office. That's too suspicious.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Keyword>Jameron Accused</Keyword>
+				<Text>Jameron, I know you stole JR's Brisket!</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>What? Why do you think that?</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Keyword>School Server</Keyword>
+				<Text>You disappeared from Anime Night early, you crashed the School Server, and you knew Troy would have to fix it by hand. I think you followed him in there and stole the brisket!</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>But I wasn't anywhere near JR's Office, and I didn't crash the server. Someone did it from my computer, and then everyone yelled at me on Slack. But worst of all, I missed an entire arc of One Piece trying to fix it.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Text>But that doesn't make sense. It takes years to finish an arc of One Piece.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Ask Troy, he saw me leave the Cohort Space as soon as he went off to fix it. You better go back to your log and find the real culprit.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="6" defenderId="6">
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>Derrick was seen in the cohort space last night, but no one knows what he was up to...</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Squishy Theft</EnablingKeyword>
+				<Text>Saul thinks Derrick stole his Squishy. Once a thieft always a thief right?</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Brisket Stain</EnablingKeyword>
+				<Text>Derrick tried to clean up a major Brisket Stain at his desk this morning. Did he spill while running off with the goods?</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Keyword>School Server</Keyword>
+				<Keyword>Derrick Accused</Keyword>
+				<Text>I accuse you, Derrick! You knew how to crash the School Server, you knew Troy would have to come fix it, and you were seen coming back from JR's office without any explanation.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Oh really? Is coming back from JR's Office a crime now?</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Keyword>Brisket Stain</Keyword>
+				<Text>Wait, there's more! We found a Brisket Stain on your desk. You were getting ready to leave with the brisket when you heard Eris leaving her desk. She startled you, and you spilled the juice before you could hide the contraband.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>But I ran into Eris coming from the break room, not coming from my desk. I never even went back to my desk last night, I found the stain there this morning. Get bodied! </Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="5" defenderId="5">
+      <EnablingKeyword>Fez and JR</EnablingKeyword>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Fez and JR</EnablingKeyword>
+				<Text>I'd be mad too if my computer got erased. Fez has a clear motive against JR. </Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Spilled Coffee</EnablingKeyword>
+				<Keyword>JR's Office</Keyword>
+				<Text>There was Spilled Coffee outside of JR's Office last night, and Fez was seen coming from that direction. He had the opportunity and the motive, but would he?</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Keyword>Fez Accused</Keyword>
+				<Text>I accuse you, Fez! You knew how to crash the School Server, you knew Troy would have to come fix it, and you were seen coming back from JR's office without any explanation.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>I absolutely have an explanation!</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Keyword>School Server</Keyword>
+				<Text>I'm not done! JR wiped your computer over a minor bug, something you knew you could fix. And you were spotted hanging around outside JR's Office at the same time that Troy was in there fixing the School Server.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>That's great and all, but Goro can vouch for me. He's the reason the coffee spilled. We bumped into each other, and he saw me head back to the Cohort Space. Plus, I'm not an asshole, and JR buys us nice programs.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="7" defenderId="7">
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Keyword>JR's Office</Keyword>
+				<Text>Troy obviously has the easiest access to JR's Office. That being said, would stealing the brisket be worth risking his job?</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Text>I accuse you, Troy! You were always angry because JR never shared the meat with his faithful intern when you deserve it most of all!</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Yah, or I'm a vegetarian so I'm not really interested in it...</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="8" defenderId="8">
+			<EnablingKeyword>None</EnablingKeyword>
+			<InvestigatorIntuition>
+				<Text>This character is not accusable at this point in the story.</Text>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Keyword></Keyword>
+				<Text>This is only readable if you cheated. You bastard.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+      <ResultStatement>
+        <Text>Hmm. Very Suspicious.</Text>
+        <ShortenedText></ShortenedText>
+      </ResultStatement>
+		</Choice>
+		<Choice personId="9" defenderId="9">
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>The King always samples the choicest meats, and this was the choicest meat of all...</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Text>I accuse you, King Lou! The Divine Right of Kings does not entitle you to another man's meat.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Rapscallion! This will not stand. Off with his head!</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="10" defenderId="11">
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>Perhaps it was my evil twin brother Jecht</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Text>I accuse me, and by me, I mean my evil twin brother!</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>But Jack, you told me you're an only child?!?!</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Text>Jecht is one of my split personalities, the evil one.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>That doesn't even... wait, one of? Jack, what are you talking about.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Text>The moon landing was a government mockup! Elvis is alive and living in Detroit! Jet fuel can't melt steel beams! Investigate the Illuminati! *incoherent rambling*</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Oh Jack, I'm so sorry it came to this.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="11" defenderId="11">
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>It didn't work in round one, but this time you're sure your trusty companion is guilty.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Text>Goro! I know you stole the Brisket! You're helping me solve the case in order to distract from the fact that all clues point to you!</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Jack, you're humor falls flat in the face of your impending departure. </Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+	</Accusation>
+
+	<Accusation timeState="3">
+		<TransitionStatement>
+			<Text>It's getting late and people are leaving. This is your last chance, Jack!</Text>
+			<ShortenedText>Your last chance.</ShortenedText>
+		</TransitionStatement>
+
+		<Choice personId="0" defenderId="0">
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>I have no reason to believe it was Brendan, but only one or two reasons to believe it WASN'T him.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Keyword>Anime Night</Keyword>
+				<Text>Brendan, I accuse you of stealing JR's brisket! You waited until everyone left school at the end of Anime Night, opened JR's Office with a key from the janitor, and stole the brisket!</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Do you have any evidence of any of that?</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Text>No, no I do not.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>It was nice knowing you Jack.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="1" defenderId="1">
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>Leanne was very forthcoming with information about Fez. Is that helpful or suspicious?</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Fez Accused</EnablingKeyword>
+				<Text>Leanne was very forthcoming with information about Fez which turned out to be false. Maybe she wanted to throw us off the trail.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Keyword>Cohort Space</Keyword>
+				<Text>Leanne, I accuse you of stealing JR's brisket! You knew there would be brisket tomorrow but you weren't on the guest list. You saw Troy walking toward JR's Office and decided it was time to strike!</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Where are you going with this Jack?</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Text>You saw Fez and Goro collide and slipped into the Office during all of the confusion. When the coast was clear, you were out with the brisket and into the VR headgear before the brisket stains had dried.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>That's some pretty intense deductive reasoning there, Sherlock. Sadly, I can't actually prove you wrong. They'll kick me out, but I'll probably just go take over the industry a little early. Thanks friend.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="2" defenderId="2">
+			<EnablingKeyword>Squishy Theft</EnablingKeyword>
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>Saul was actually hit by the Bandit previously. Is that exonerating or the perfect cover?</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Derrick Accused</EnablingKeyword>
+				<Text>Saul gave us a seriously lead when he accused Derrick of stealing his Squish, but Derrick was innocent. Could Saul have known and used it as a cover?</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Text>Saul, I accuse you of stealing JR's Brisket. After Little Reapsy got stolen, you saw the perfect opportunity to take something back. You used the rumors of the FIEA Bandit as a cover to steal JR's brisket!</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>After feeling the pain of such a theft, how could I possibly inflict it on another? Do you think me so cruel Jack? NO! And anyway, Leanne saw me all night so I'm covered. Bye bye, jerk!</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="3" defenderId="3">
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>Cid always looks hungry. He clearly has a motive.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<InvestigatorIntuition>
+				<EnablingKeyword>School Server</EnablingKeyword>
+				<Text>Cid would certainly know how to crash the server. He would also know who would be going to fix it. I can't rule him out.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Crashed the Server</EnablingKeyword>
+				<Text>Cid is a clever one, and he could easily have orchestrated a server crash. It would then be a simple matter of following Troy inside without any overly loud belly rumbles.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Text>Cid, I accuse you of stealing JR's brisket. You knew who could get inside that sacred vault, and you knew how to get him to do it. All you had to do was employ a little stealth.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>What the heck are you talking about?</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Keyword>School Server</Keyword>
+				<Text>You went to Jameron's computer, crashed the School Server, and snuck in behind Troy!</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>You're forgetting one thing Jack, I prefer chicken fried rice, not beef. Perhaps you'll get to deliver me some now that they're kicking you out of FIEA.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="4" defenderId="4">
+      <EnablingKeyword>Anime Night</EnablingKeyword>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Anime Night</EnablingKeyword>
+				<Text>Jameron left Anime Night without explaining why. I wonder where he went?</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Crashed the Server</EnablingKeyword>
+				<Text>Jameron Crashed the server! If he knew Troy would have to go fix it manually, then he could have snuck in and stolen the brisket.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Jameron Watching</EnablingKeyword>
+				<Text>Jameron was watching Troy as he went to JR's Office. That's too suspicious.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Jameron's Card</EnablingKeyword>
+				<Text>Jameron said his card went missing, and Brendan confirmed it. It's strange that someone would plan an elaborate heist and forget their key to the building.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Jameron Accused</EnablingKeyword>
+				<Text>I already accused Jameron and nothing came of it, maybe I should try someone else.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Text>Jameron, I accuse you of stealing JR's brisket! You disappeared from Anime Night early, you crashed the School Server, and you knew Troy would have to fix it by hand. I think you followed him in there and stole the brisket!</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>But I wasn't anywhere near JR's Office, and I didn't crash the server. Someone did it from my computer, and then everyone yelled at me on Slack. But worst of all, I missed an entire arc of One Piece trying to fix it.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Text>But that doesn't make sense. It takes years to finish an arc of One Piece.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Ask Troy, he saw me leave the Cohort Space as soon as he went off to fix it manually. I'm sorry Jack, but you blew it this time.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="6" defenderId="6">
+      <EnablingKeyword>Brisket Stain</EnablingKeyword>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Brisket Stain</EnablingKeyword>
+				<Text>Derrick tried to clean up a major Brisket Stain at his desk this morning. Did he spill while running off with the goods?</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Derrick Accused</EnablingKeyword>
+				<Text>I already accused Jameron and nothing came of it, maybe I should try someone else.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Keyword>Brisket Stain</Keyword>
+				<Text>I accuse you, Derrick! You knew how to crash the School Server, you knew Troy would have to come fix it, and then we found that mysterious Brisket Stain on your desk!</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>I don't know how that got there, I never even went to my desk last night! </Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Keyword>Spilled Coffee</Keyword>
+				<Text>Most importantly, I know you passed by JR's Office during the time that Troy left the door open. You could have snuck in while Goro and Fez were distracted by the Spilled Coffee.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Pretty clever Jack, there's just one problem. Eris saw me come back from the break room, and I didn't have any brisket with me. Can you explain that Jack? Didn't think so. There'll be no good vibes for you today friend, you're outta here.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="5" defenderId="5">
+      <EnablingKeyword>Fez and JR</EnablingKeyword>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Fez and JR</EnablingKeyword>
+				<Text>I'd be mad too if my computer got erased. Fez has a clear motive against JR.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Spilled Coffee</EnablingKeyword>
+				<Text>There was Spilled Coffee outside of JR's Office last night, and Fez was seen coming from that direction. He had the opportunity and the motive, but would he?</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<InvestigatorIntuition>
+				<EnablingKeyword>Fez Accused</EnablingKeyword>
+				<Text>I already accused Fez and nothing came of it, maybe I should try someone else.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Text>I accuse you, Fez! You knew how to crash the School Server, you knew Troy would have to come fix it, and you were seen coming back from JR's office without any explanation.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Coffee is a fine explanation.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Text>Is that why we found a big stain of your coffee outside his door? One that we can verify was made during the time that Troy had the door open?</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>That or your friend Goro walking right into me would certainly explain it. Got anything else?</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Text>Not really, no.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Welp, have a nice life.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="7" defenderId="7">
+			<EnablingKeyword>Hungry for Brisket</EnablingKeyword>
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>One of FIEA's most undervalued workers. Maybe he thought it was time for proper payment.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Text>I accuse you Troy! You had easy access to JR's Office, and you were sick and tired of not being guaranteed a piece of the brisket. You knew you deserved the meat so you went and took it.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Grrr</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Text>What?</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Sorry, force of habit.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Text>So about my accusation?</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Oh. You're wrong. JR saves a piece for me every time because I usually work through lunch. I hope this poorly thought out accusation isn't going ot be a problem...</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="8" defenderId="8">
+			<EnablingKeyword>None</EnablingKeyword>
+			<InvestigatorIntuition>
+				<Text>This character is not accusable at this point in the story.</Text>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Keyword></Keyword>
+				<Text>This is only readable if you cheated. You bastard.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+      <ResultStatement>
+        <Text>Hmm. Very Suspicious.</Text>
+        <ShortenedText></ShortenedText>
+      </ResultStatement>
+		</Choice>
+		<Choice personId="9" defenderId="9">
+			<EnablingKeyword>None</EnablingKeyword>
+			<InvestigatorIntuition>
+				<Text>This character is not accusable at this point in the story.</Text>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Keyword></Keyword>
+				<Text>This is only readable if you cheated. You bastard.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+      <ResultStatement>
+        <Text>Hmm. Very Suspicious.</Text>
+        <ShortenedText></ShortenedText>
+      </ResultStatement>
+		</Choice>
+		<Choice personId="10" defenderId="11">
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>Maybe this is for the best, ya know? Maybe there's more to life than video games.</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Text>I accuse myself because I've given up and I always wanted to be an artist anyway.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Go Jack. Follow your dreams!</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+		<Choice personId="11" defenderId="11">
+			<InvestigatorIntuition>
+				<EnablingKeyword></EnablingKeyword>
+				<Text>If I keep stabbing him in the back, eventually it has to stick. Third time's the charm, amiright?</Text>
+				<ShortenedText></ShortenedText>
+			</InvestigatorIntuition>
+			<AccusationStatement>
+				<Text>I figurd it out Goro, all the evidence lines up.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>What are you talking about Jack?</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Text>It was you all along Goro! You stole the brisket, and you were going to let me take the fall.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>You fool. You sweet sweet fool. Hush now and I won't tell the whole cohort about your crazy last moments.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Text>You won't have to, I'll tell them myself. I'll tell them how you went to Anime Night and how you stole Jameron's card along the way.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Oh Really?</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Text>I'll tell them how you used it to slip into the Cohort Space, and how you crashed the School Server from Jameron's computer.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Go on...</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Text>You escaped Lou's homework help with just enough time to catch up to Troy, but in your haste you crashed into Fez.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>This is going nowhere Jack.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Text>You offered to clean up the spill so Fez would leave, and, seconds ahead of Derrick, you slipped into JR's Office to grab the brisket.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>...</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Text>You had almost made it out when you spotted Derrick and Eris walking down the hall. You dashed into hiding at Derrick's desk, but not before spilling a dollop of juice.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Jack...</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Text>But you made one crucial mistake, Goro. You let the blame fall on ME!</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>... I can't believe you figured it out Jack. I know we play Sherlock and Watson, but I didn't really think you had the knack. What happens now?</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+			<AccusationStatement>
+				<Text>I dunno. You probably apologise to JR and then they let you stay at FIEA.</Text>
+				<ShortenedText></ShortenedText>
+			</AccusationStatement>
+			<ResultStatement>
+				<Text>Seems reasonable.</Text>
+				<ShortenedText></ShortenedText>
+			</ResultStatement>
+		</Choice>
+	</Accusation>
+
+</Accusations>
